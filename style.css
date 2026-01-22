@@ -512,3 +512,57 @@ body {
   display: block;
 }
 
+/* Footer section */
+
+.footer-bg{
+  background-image: url('./assets/footer-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 20px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+
+
+.footer-logo h1 {
+  margin-bottom: 32px;
+}
+.footer-social-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.footer-social {
+	display: flex;
+	align-items: center;
+	margin: 10px 15px;
+}
+
+.footer-social img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.footer-social a {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-social a:hover {
+  color: #e94560;
+}
+
+.copyright p {
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 20px;
+}
+
+
